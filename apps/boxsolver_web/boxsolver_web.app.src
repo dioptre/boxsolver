@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, boxsolver_web,
+ [
+  {description, "boxsolver_web"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { boxsolver_web_app, []}},
+  {env, []}
+ ]}.

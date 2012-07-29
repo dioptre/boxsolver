@@ -1,0 +1,9 @@
+{application,boxsolver_web,
+             [{description,"boxsolver_web"},
+              {vsn,"1"},
+              {modules,[boxsolver_web,boxsolver_web_app,
+                        boxsolver_web_resource,boxsolver_web_sup,sample_dtl]},
+              {registered,[]},
+              {applications,[kernel,stdlib,inets,crypto,mochiweb,webmachine]},
+              {mod,{boxsolver_web_app,[]}},
+              {env,[]}]}.
